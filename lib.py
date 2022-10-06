@@ -1,6 +1,8 @@
 if __name__ == '__main__':
     exit('Do not run the library! Import it!')
 
+#This is not meant to be public, if it is i will actually....
+
 global hasInit
 hasInit = False
 
