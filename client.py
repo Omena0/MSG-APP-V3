@@ -10,13 +10,15 @@ import os
 
 #Example Token: ('2ade65e8b2860acdfa76ff7520c8aa785ddeb992', 'Omena0')
 
+#sus
+
 def hang():
     input('Press ENTER to close...')
     os._exit(0)
     sys.exit(0)
 
 authip   = '192.168.0.104'
-authport = 1234
+authport =  1234
 
 s = socket.socket()
 
@@ -42,7 +44,24 @@ if answer == 'Invalid_Password':
     hang()
 elif answer == 'No_User':
     lib.log('!','Invalid Username! (X No_User)')
-    hang()
+    if input('Create user? (Y/N)').lower() == 'y':
+        s = socket.socket()
+        s.connect((authip,authport))
+        s.send(f'+ {username} {password}'.encode())
+        msg = s.recv(32767).decode()
+        if msg == 'X User_Exists':
+            lib.log('!','User already exists with same username!')
+        elif msg == 'X User_Created':
+            lib.log('!','User created! Logging in...')
+            s = socket.socket()
+            s.connect((authip,authport))
+            s.send(f'? {username} {lib.hash(password)}'.encode())
+            answer = s.recv(32767).decode().replace('X ','')
+            token = answer
+            print(token)
+            lib.log('+',f'Logged in as {username}')
+
+
 else:
     token = answer
     print(token)
