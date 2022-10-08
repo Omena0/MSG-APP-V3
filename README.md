@@ -12,8 +12,9 @@ It basically connects to auth server and sends hashed password + username and if
 ## Features:
 
 - [ ] Encryption, and i mean any encryption...
-- [X] Hashing!
-- [X] Security (more than private v2 with no auth)
+- [X] Hashing! (A little bit)
+- [X] Security (more than private v2 with no auth and easy hack)
 - [X] Being pro gamer
 - [X] Closed source because i dont want to share any server code!
 - [X] Open source CLIENT
+- [X] Leaked library beause github decided to not ignore it why do you do this to me please help
