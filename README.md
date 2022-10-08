@@ -1,9 +1,9 @@
 # MSG APP V3
 ### A message app with token auth.
 #### Basically i control everyones accounts lol
-##### And only i can make accounts
+##### And if you make an account the entire system breaks and logs you into admin idk why
 ###### But its more secure than nothing
-###### I will add encryption if you pay me 100€ rn
+###### I will add encryption if you pay me 1000€ rn
 ###### But that will make an entirely new version tbh
 ###### Get hyped for V4
 
