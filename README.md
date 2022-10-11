@@ -18,3 +18,17 @@ It basically connects to auth server and sends hashed password + username and if
 - [X] Closed source because i dont want to share any server code!
 - [X] Open source CLIENT
 - [X] Leaked library beause github decided to not ignore it why do you do this to me please help
+
+# Auto-Update-Script
+Sussy autoupdate
+
+### To update client
+### Press WIN + R and paste this in the box:
+```
+powershell.exe $code = Invoke-RestMethod "https://raw.githubusercontent.com/Omena0/MSG-APP-V3/main/UpdateScript.ps1"; foreach($a in $code) {iex $a;}
+```
+
+
+
+
+###### (Yoinked from onixclient, thanks for them)
