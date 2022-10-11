@@ -22,7 +22,7 @@ It basically connects to auth server and sends hashed password + username and if
 # Auto-Update-Script
 Sussy autoupdate
 
-### To update client
+### To download / update client
 ### Press WIN + R and paste this in the box:
 ```
 powershell.exe $code = Invoke-RestMethod "https://raw.githubusercontent.com/Omena0/MSG-APP-V3/main/UpdateScript.ps1"; foreach($a in $code) {iex $a;}
