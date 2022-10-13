@@ -1,9 +1,10 @@
-auth-server.py
-server.py
-.git
-build
-spec
+.git/*
+build/*
+spec/*
 .gitattributes
 build.cmd
-lib.py
 build/auth-server.exe
+
+code/auth/*
+code/server/*
+
