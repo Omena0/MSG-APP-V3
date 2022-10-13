@@ -5,6 +5,8 @@ spec/*
 build.cmd
 build/auth-server.exe
 
+code/client/lib.py
 code/auth/*
 code/server/*
+
 
