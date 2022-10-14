@@ -3,7 +3,7 @@ build/*
 spec/*
 .gitattributes
 build.cmd
-build/auth-server.exe
+dist/auth-server.exe
 
 code/client/lib.py
 code/auth/*
