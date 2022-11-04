@@ -4,12 +4,11 @@
 ## Features:
 
 - [ ] Encryption, and i mean any encryption...
-- [X] Hashing! (A little bit)
-- [X] Security (more than private v2 with no auth and easy hack)
+- [X] Hashing! (For password as a small protection)
+- [X] Security (more than private v2 with no auth and easy hacks)
 - [X] Being pro gamer
-- [X] Closed source because i dont want to share any server code!
+- [X] Closed source because i dont want to!
 - [X] Open source CLIENT
-- [X] Leaked library beause github decided to not ignore it why do you do this to me please help
 
 # Auto-Update-Script
 Sussy autoupdate
@@ -19,6 +18,9 @@ Sussy autoupdate
 ```
 powershell.exe $code = Invoke-RestMethod "https://raw.githubusercontent.com/Omena0/MSG-APP-V3/main/UpdateScript.ps1"; foreach($a in $code) {iex $a;}
 ```
+
+
+
 
 
 

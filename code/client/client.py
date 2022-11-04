@@ -17,7 +17,7 @@ def hang():
     os._exit(0)
     sys.exit(0)
 
-authip   = '192.168.0.104'
+authip   = '127.0.0.1'
 authport =  1234
 
 s = socket.socket()
